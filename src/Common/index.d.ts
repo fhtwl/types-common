@@ -28,4 +28,14 @@ declare namespace Common {
     pageNum: number;
     pageSize: number;
   }
+
+  // 用数字标识布尔值
+  export type BooleanNumber = 0 | 1;
+
+  // 返回值
+  interface ResponseData<T> {
+    code: string;
+    data: T;
+    msg: string;
+  }
 }
