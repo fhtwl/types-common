@@ -1,0 +1,16 @@
+{
+  "name": "@fhtwl-admin/system",
+  "version": "0.0.5",
+  "description": "后台管理系--系统模块模型",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [],
+  "author": "fhtwl",
+  "license": "ISC"
+}
