@@ -1,7 +1,7 @@
 {
-  "name": "@fhtwl-admin/system",
-  "version": "0.0.5",
-  "description": "后台管理系--系统模块模型",
+  "name": "@fhtwl-admin/common",
+  "version": "0.0.1",
+  "description": "后台管理系统--公共模块模型",
   "main": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
