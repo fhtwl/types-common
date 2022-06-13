@@ -1,5 +1,5 @@
 declare namespace Common {
-  export interface Params extends Params {
+  export interface Params {
     [propsName: string]: unknown;
   }
   // 一般list
