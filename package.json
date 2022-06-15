@@ -1,6 +1,6 @@
 {
   "name": "@fhtwl-admin/common",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "后台管理系统--公共模块模型",
   "main": "index.d.ts",
   "scripts": {

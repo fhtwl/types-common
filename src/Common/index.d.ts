@@ -28,6 +28,7 @@ declare namespace Common {
   export interface PaginationParams extends Params {
     pageNum: number;
     pageSize: number;
+    params: Params
   }
 
   // 用数字标识布尔值
