@@ -3,9 +3,10 @@ declare namespace Common {
     [propsName: string]: unknown;
   }
   // 一般list
-  export interface List extends Params {
+  export interface ListItem extends Params {
     id?: number;
   }
+  export type List = ListItem[];
 
   export interface TreeOption {
     id?: string;
