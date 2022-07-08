@@ -28,16 +28,19 @@ declare namespace Common {
   export interface PaginationParams extends Params {
     pageNum: number;
     pageSize: number;
-    params: Params
+    params: Params;
   }
 
   // 用数字标识布尔值
   export type BooleanNumber = 0 | 1;
 
   // 返回值
-  interface ResponseData<T> {
+  export interface ResponseData<T> {
     code: string;
     data: T;
     msg: string;
   }
+
+  // 函数
+  export type Fun<T = unknown, Ret = void> = (...args: T[]) => Ret;
 }
